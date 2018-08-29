@@ -1,6 +1,6 @@
 # Intro_to_Programming_Nanodegree
 
-# This repository is my first step towards Web and App Development, Machine Learning, Data Science, AI with Udacity's Nanodegree 
+# This repository is my first step towards Web and App Development, Machine Learning with Udacity's Nanodegree 
 
 <p align = "center">
 <img src = "Intro_Programming.png"><br>
