@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>page_04</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Advanced Configuration</h1>
+
+    <div class="index">
+      <ol>
+        <li><a href="page_01.html">Introducing Quadcopter</a></li>
+        <li><a href="page_02.html">First Time Setup</a></li>
+        <li><a href="page_03.html">First Flight</a></li>
+        <li><a href="page_04.html">Advanced Configuration</a>
+          <ul>
+            <li><b><a href="#key-1">Auto Tune</a></b></li>
+            <li><b><a href="#key-2">Compass Setup</a></b></li>
+            <li><b><a href="#key-3">Current Limiting & Voltage scaling</a></b></li>
+            <li><b><a href="#key-4">EKF : Extend Kalman Filter</a></b></li>
+            <li><b><a href="#key-5">Parameter List</a></b></li>
+            <li><b><a href="#key-6">Sensor testing</a></b></li>
+          </ul>
+        </li>
+        <li><a href="page_05.html">Optional Hardware</a></li>
+        <li><a href="page_06.html">FAA Part 107</a></li>
+        <li><a href="index.html">Go back Home</a></li>
+      </ol>
+    </div>
+
+    <div class="articles">
+      <div class="article_title" id="key-1">
+        <h2>Auto Tune</h2>
+      </div>
+      <div class="article_des">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="strapline">
+          <h3>Overview</h3>
+        </div>
+        <div class="emphasize">
+          <div class="warning-title">
+            <h3>Warning!</h3>
+          </div>
+          <div class="emphasize-article">
+            omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
+            quibusdam et aut officiis debitis aut rerum necessitatibus <br>saepe eveniet ut et
+            voluptates repudiandae sint et molestiae non recusandae.
+          </div>
+        </div>
+        <ol>
+          <li>Wait for a calm day and go to a large open area.</li>
+          <li>Ensure the ch7 or ch8 switch is in the LOW position</li>
+          <li>Take off and put the copter into AltHold mode at a comfortable altitude.</li>
+          <li>Face the vehicle so that it will twitch at 90degrees from the direction the wind is blowing<br>
+            <em>(i.e. if tuning Roll first, point the vehicle into the wind)</em><br>
+            <img src="images/autoutne.png" width="500" height="250" title="image by ardupilot.org" alt="no image">
+          </li>
+          <li>Set the ch7/ch8 switch to the HIGH position to engage auto tuning:
+            <ul>
+              <li>You will see it twitch about 20 degrees left and right for a few minutes, then it will repeat forward and back.</li>
+              <li>Use the roll and pitch stick at any time to reposition the copter if it drifts away <em>(it will use the original PID gains during <br>repositioning
+                and between tests)</em>. When you release the sticks it will continue auto tuning where it left off.</li>
+              <li>Move the ch7/ch8 switch into the LOW position at any time to abandon the autotuning and return to the origin PIDs.</li>
+            </ul>
+          </li>
+          <li>When the tune completes the copter will change back to the original PID gains.</li>
+          <li>Put the ch7/ch8 switch into the LOW position to fly using the original PID gains.</li>
+          <li>If you are happy with the autotuned PID gains, leave the ch7/ch8 switch in the HIGH position,
+            land and disarm to save the PIDs permanently.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="articles">
+      <div class="article_title" id="key-2">
+        <h2>Compass Setup</h2>
+      </div>
+      <div class="article_des">
+        <p>
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+          saepe eveniet ut et voluptates <b>repudiandae sint et</b> molestiae non <br>recusandae.
+          Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
+          maiores alias consequatur aut perferendis doloribus<br> asperiores repellat.
+        </p>
+         <p>
+           Bagian 1.10.33 dari "de Finibus Bonorum et Malorum", ditulis oleh Cicero pada tahun 45
+          sebelum masehi
+         </p>
+         <img src="images/compass.png" width="700" height="400" title="Live Compass Calibration" alt="no image">
+         <p>
+            duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.<br>
+            The wise man therefore always holds in these matters to this principle of selection.<br>
+            <a href="https://www.youtube.com/watch?v=CQjnwVFXhG0"><em>visit here : youtube channel.</em></a>
+         </p>
+      </div>
+    </div>
+
+    <div class="articles">
+      <div class="article_title" id="key-3">
+        <h2>Current Limiting & Voltage scaling</h2>
+      </div>
+      <div class="article_des">
+        Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan
+        huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an,<br>
+        saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan
+        mengacaknya untuk menjadi sebuah buku contoh huruf.
+      </div>
+      <div class="emphasize">
+        <div class="note-title">
+            <h3>Note!</h3>
+        </div>
+        <div class="emphasize-article">
+          Current limiting and voltage scaling were introduced in Copter 3.3.
+        </div>
+      </div>
+      <p>
+        Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran
+        Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya
+        perangkat lunak<br> Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.
+      </p>
+      <div class="strapline">
+        <h3>Current Limiting</h3>
+      </div>
+      <p>
+        Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah
+        halaman saat ia melihat tata letaknya. Maksud penggunaan Lorem Ipsum adalah karena<br> ia kurang
+        lebih memiliki penyebaran huruf yang normal, ketimbang menggunakan kalimat seperti <br>"Bagian
+        isi disini, bagian isi disini", sehingga ia seolah menjadi naskah yang bisa dibaca.
+         Banyak Desktop Publishing dan editor situs web yang kini menggunakan Lorem Ipsum sebagai
+         contoh teks. <br>Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak situs
+         web yang masih dalam tahap pengembangan. Berbagai versi<br>juga telah berubah dari tahun ke tahun,
+        kadang karena tidak sengaja, kadang karena disengaja <em>(misalnya karena dimasukkan unsur humor)</em>
+      </p>
+      <div class="strapline">
+        <h3>Voltage scaling</h3>
+      </div>
+      <p>
+        Bagian standar dari teks Lorem Ipsum yang digunakan sejak 1500an kini di reproduksi kembali
+         di bawah ini untuk mereka yang tertarik. 1.10.32 dan 1.10.33 dari "de Finibus Bonorum et
+         Malorum" karya Cicero juga di reproduksi persis seperti bentuk aslinya, diikuti oleh versi bahasa
+         Inggris yang berasal dari terjemahan tahun 1914 oleh H. Rackham.
+      </p>
+    </div>
+
+    <div class="articles">
+      <div class="article_title" id="key-4">
+        <h2>EKF : Extend Kalman Filter</h2>
+      </div>
+      <div class="article_des">
+        <img src="images/kamanfilter.png" width="900" height="300" title="image by ardupilot.org" alt="no image">
+      </div>
+      <p>
+        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
+        avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie<br> depuis les années 1500,
+         quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen
+         de polices de texte. Il n'a pas fait que survivre cinq siècles.
+      </p>
+      <p>
+        D'où vient-il? Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du
+        texte aléatoire. Il trouve ses.
+      </p>
+      <p>
+        du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum"
+         <em><b>(Des Suprêmes Biens et des Suprêmes Maux)</b></em><br>de Cicéron. Cet ouvrage, très populaire pendant la Renaissance,
+         est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, <br>"Lorem ipsum dolor sit
+         amet...", proviennent de la section 1.10.32.
+      </p>
+    </div>
+
+    <div class="articles">
+      <div class="article_title" id="key-5">
+        <h2>Parameter List</h2>
+      </div>
+      <div class="article_des">
+        <p>
+          De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+           fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum'
+           vous conduira vers<br> nombreux sites qui n'en encore qu'à leur phase de construction.
+            Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement
+        </p>
+        <p><strong><em>SYSID_SW_MREV: Eeprom format version number</em></strong></p>
+        <p><strong><em>SYSID_SW_TYPE: Software Type</em></strong></p>
+        <p><strong><em>SYSID_THISMAV: MAVLink system ID of this vehicle</em></strong></p>
+        <p><strong><em>SYSID_MYGCS: My ground station number</em></strong></p>
+        <p><strong><em>PILOT_THR_FILT: Throttle filter cutoff</em></strong></p>
+        <p><strong><em>PILOT_TKOFF_ALT: Pilot takeoff altitude</em></strong></p>
+        <p><strong><em>SPILOT_THR_BHV: Throttle stick behavior</em></strong></p>
+        <p><strong><em>TELEM_DELAY: Telemetry startup delay</em></strong></p>
+        <p><strong><em>GCS_PID_MASK: GCS PID tuning mask</em></strong></p>
+      </div>
+    </div>
+
+    <div class="articles">
+      <div class="article_title" id="key-6">
+        <h2>Sensor testing</h2>
+      </div>
+      <div class="article_des">
+        <p>
+          L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit
+          ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "<br>De Finibus
+          Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur version originale,
+          accompagnée de la traduction anglaise de H. Rackham (1914).
+        </p>
+        <p>
+          Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie
+          d'entre elles a été altérée par ou de mots aléatoires qui ne ressemblent<br>
+          pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum,
+          vous devez être sûr qu'il n'y a rien d'embarrassant caché dans texte. Tous les générateurs<br>
+           de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de
+           lipsum.com le seul vrai générateur de Lorem Ipsum. <br>Iil utilise un dictionnaire de plus de
+           200 mots latins,
+        </p>
+        <div class="photo lineup_1_img">
+          <div class="item">
+            <img src="images/sensor_01.png" width="200" height="180" title="MCU" alt="">
+          </div>
+          <div class="item">
+            <img src="images/sensor_02.png" width="200" height="180" title="Color Sensor" alt="">
+          </div>
+          <div class="item">
+            <img src="images/sensor_04.png" width="200" height="180" title="Ultrasonic" alt="">
+          </div>
+          <div class="item">
+            <img src="images/sensor_06.png" width="200" height="180" title="Camera" alt="">
+          </div>
+        </div>
+        <p>
+          On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est
+          source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage<br>
+           du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède
+            une distribution de et en tout cas comparable.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

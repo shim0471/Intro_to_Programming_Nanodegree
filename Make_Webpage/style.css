@@ -1,0 +1,197 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+body {
+  background: url("images/back_img.jpg")
+    repeat top center;
+  margin: 20px;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px 0;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 8px;
+}
+
+h3 {
+  margin: 0;
+}
+
+ol {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.index_body {
+  background: url("images/IMG_0902.jpg")
+    repeat top center;
+  margin: 20px;
+}
+
+.index {
+  margin: 40px 40px;
+}
+
+.articles {
+  margin: 30px 60px;
+  font-size: 18px;
+}
+
+.article_title {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 25px;
+  text-align:left;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.strapline {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 20px;
+  text-align:left;
+  margin: 20px 0;
+}
+
+.emphasize {
+  background-color: white;
+  border-radius: 12px;
+  width: 1000px;
+  margin: 40px;
+  font-size: 17px;
+}
+
+.emphasize-article {
+  padding: 8px;
+  margin: 0 15px;
+}
+
+
+.Main_head {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+.item {
+max-width: none;
+padding: 20px;
+border: 30px;
+margin: 30px
+}
+
+.Main_parag {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.Main_container {
+  display:flex;
+  justify-content:space-around;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box_1 {
+  background-color: #F0F8FF;
+  border-radius: 20px;
+  padding: 20px
+}
+
+.box {
+  color: white;
+  padding: 10px;
+}
+
+.table_index {
+  background-color: #DCDCDC;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.warning-title {
+  background-color: #B22222;
+  color: white;
+  padding: 8px 15px;
+}
+
+.note-title {
+  background-color: #87CEEB;
+  color: white;
+  padding: 8px 15px;
+}
+
+.tip-title {
+  background-color: #008000;
+  color: white;
+  padding: 8px 15px;
+}
+
+.photo {
+  display:flex;
+  text-align: center;
+  color: white;
+}
+
+.lineup_1_img {
+  justify-content: space-between;
+}
+
+.lineup_2_img {
+  justify-content:space-around;
+}
+
+.faa_img {
+  text-align: center;
+  padding: 20px;
+}
+
+.regulation {
+  font-size: 30px;
+  text-align: center;
+  color: #008000;
+  padding: 30px;
+  margin: 20px;
+}
+
+.faa_border {
+  background-color: #F5F5F5;
+  border-radius: 12px;
+  color: black;
+  padding: 10px;
+}
+
+.floating {
+  float: left;
+  padding: 0 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  clear: both;
+}
+
+.top_line {
+  color: black;
+  border-top: 2px solid black;
+  margin: 40px;
+}
